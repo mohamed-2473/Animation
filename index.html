@@ -1,35 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Animation Task</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/all.css">
-    </head>
-    <body>
-        <div class="div1">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Animation Showcase</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Colorful Animation Showcase</h1>
+        <p>Watch these animated bars expand with different timing and colors</p>
+    </header>
 
-        </div>
-        <div class="div2">
-            
-        </div>
-        <div class="div3">
-            
-        </div>
-        <div class="div4">
-            
-        </div>
-        <div class="div5">
+    <main>
+        <section class="animation-container">
+            <div class="div1">
+                <span>Primary Red</span>
+                <i class="fas fa-fire"></i>
+            </div>
+            <div class="div2">
+                <span>Nature Green</span>
+                <i class="fas fa-leaf"></i>
+            </div>
+            <div class="div3">
+                <span>Ocean Blue</span>
+                <i class="fas fa-water"></i>
+            </div>
+            <div class="div4">
+                <span>Elegant Black</span>
+                <i class="fas fa-moon"></i>
+            </div>
+            <div class="div5">
+                <span>Vibrant Red</span>
+                <i class="fas fa-heart"></i>
+            </div>
+            <div class="div6">
+                <span>Fresh Green</span>
+                <i class="fas fa-tree"></i>
+            </div>
+            <div class="div7">
+                <span>Deep Blue</span>
+                <i class="fas fa-cloud"></i>
+            </div>
+            <div class="div8">
+                <span>Classic Black</span>
+                <i class="fas fa-star"></i>
+            </div>
+        </section>
 
-        </div>
-        <div class="div6">
-            
-        </div>
-        <div class="div7">
-            
-        </div>
-        <div class="div8">
-            
-        </div>
-    </body>
+        <section class="info-section">
+            <h2>About This Animation</h2>
+            <p>This demonstration shows CSS animations with staggered timing. Each colored bar expands horizontally at 2-second intervals, creating a wave-like effect.</p>
+            <p>The animation uses CSS <code>@keyframes</code> to change the width property from 400px to 1500px over 2 seconds.</p>
+            <button id="replay-btn">Replay Animation</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2022 Animation Showcase | Created with CSS & HTML</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
